@@ -1,0 +1,66 @@
+.workexperience {
+  margin-top: 100px;
+}
+.Gradient {
+  width: 525px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #763cac 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+.WREX-title {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.cards {
+  position: relative;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 470px;
+  height: 193px;
+  background: linear-gradient(
+    110.49deg,
+    #130428 19.95%,
+    #251043 67.64%,
+    #38126d 107.08%,
+    #261045 156.61%,
+    #190634 183.21%
+  );
+
+  border-top: 8px solid rgba(79, 34, 141, 1);
+  border-radius: 15px;
+}
+.cardline {
+  display: flex;
+  gap: 17px;
+}
+
+.icon {
+  width: 121px;
+  height: 115px;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.experience {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}

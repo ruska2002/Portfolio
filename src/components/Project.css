@@ -1,0 +1,100 @@
+.sircle {
+  width: 525px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #763cac 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
+  margin-top: 80px;
+  position: relative;
+}
+
+.gradient-left {
+  right: -480px;
+}
+.gradient-right {
+  left: -150px;
+}
+.projects {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+  overflow: hidden;
+}
+
+.text-side {
+  position: absolute;
+  margin-top: 295px;
+  margin-left: -400px;
+  z-index: 1;
+}
+.bg-sircle {
+  display: flex;
+}
+
+.p-title {
+  color: rgba(152, 87, 211, 1);
+}
+.p-title2 {
+  margin-top: 10px;
+  color: rgba(204, 214, 246, 1);
+}
+
+.description-box {
+  background: radial-gradient(
+    90.16% 143.01% at 15.32% 21.04%,
+    rgba(105, 59, 147, 0.2) 0%,
+    rgba(110, 191, 244, 0.0447917) 77.08%,
+    rgba(70, 144, 213, 0) 100%
+  );
+  width: 500px;
+  height: 165px;
+  border-radius: 14px;
+  margin-top: 15px;
+}
+
+.description {
+  color: rgba(204, 214, 246, 1);
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.click-img {
+  display: flex;
+  gap: 17px;
+  margin-top: 36px;
+  margin-left: 27px;
+}
+
+.project-background {
+  background-color: #2b0b3a;
+  width: 560px;
+  height: 340px;
+  border-radius: 15px;
+  margin-right: 40px;
+}
+
+.image-right {
+  position: absolute;
+  right: 200px;
+  margin-top: 225px;
+}
+
+.ecommerce-img {
+  position: absolute;
+  width: 530px;
+  height: 300px;
+  top: 345px;
+  margin-left: -10px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}

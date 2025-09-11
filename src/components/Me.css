@@ -1,0 +1,91 @@
+.memoji {
+  width: 175px;
+  height: 223px;
+  margin-left: 120px;
+  margin-top: 60px;
+}
+
+.gradient {
+  width: 320px;
+  height: 370px;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #763cac 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.light {
+  width: 228px;
+  height: 229px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 255, 255, 1),
+    rgba(67, 67, 67, 0) 100%
+  );
+
+  margin-left: -269px;
+  margin-top: 180px;
+}
+
+.images {
+  position: relative;
+  display: flex;
+}
+
+.text {
+  padding-top: 145px;
+  font-size: 19px;
+  margin-left: 10px;
+}
+
+.text2 {
+  padding-top: 240px;
+  margin-left: -150px;
+  font-size: 17px;
+}
+.text3 {
+  padding-top: 260px;
+  margin-left: -112px;
+  font-size: 50px;
+}
+
+.text4 {
+  font-size: 11px;
+  padding-top: 380px;
+  margin-left: -300px;
+}
+
+.text,
+.text2,
+.text3,
+.text4 {
+  color: #ffffff;
+}
+.small-image1,
+.small-image2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.small-image1 {
+  transform: translate(-200%, -45%);
+}
+.arrow {
+  margin-top: 80%;
+  transform: translate(-310%, -180%);
+}
+
+.miniText {
+  color: #ffffff;
+  margin-top: 60px;
+  margin-left: 280px;
+}
+
+.miniText2 {
+  margin-top: 40px;
+}
