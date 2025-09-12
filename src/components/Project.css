@@ -1,3 +1,22 @@
+.projects {
+  margin-top: 200px;
+  position: relative;
+  padding: 80px;
+  /* overflow: hidden; */
+  height: 800px;
+}
+
+.bg-sircle {
+  display: flex;
+  position: absolute;
+  top: -200px;
+  left: -150px;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  z-index: 0;
+}
+
 .sircle {
   width: 525px;
   height: 600px;
@@ -7,34 +26,33 @@
     #763cac 0%,
     rgba(50, 15, 133, 0) 100%
   );
-  margin-top: 80px;
-  position: relative;
+  margin-top: 100px;
+  position: absolute;
 }
 
 .gradient-left {
-  right: -480px;
+  top: 50px;
+  right: 0;
 }
 .gradient-right {
-  left: -150px;
+  top: 50px;
+  right: 200px;
 }
-.projects {
-  position: relative;
-  display: flex;
-  flex-direction: column;
+.project-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
   align-items: center;
-  justify-content: space-between;
-  padding: 80px;
-  overflow: hidden;
+  position: relative;
+  z-index: 1;
 }
 
 .text-side {
-  position: absolute;
-  margin-top: 295px;
-  margin-left: -400px;
-  z-index: 1;
-}
-.bg-sircle {
   display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 140px;
+  margin-top: 40px;
 }
 
 .p-title {
@@ -52,49 +70,40 @@
     rgba(110, 191, 244, 0.0447917) 77.08%,
     rgba(70, 144, 213, 0) 100%
   );
-  width: 500px;
-  height: 165px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  min-height: 165px;
   border-radius: 14px;
-  margin-top: 15px;
+  padding: 20px;
 }
 
 .description {
   color: rgba(204, 214, 246, 1);
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 25px;
 }
 
 .click-img {
   display: flex;
   gap: 17px;
-  margin-top: 36px;
-  margin-left: 27px;
+  margin-top: 20px;
 }
 
-.project-background {
-  background-color: #2b0b3a;
+.project-preview {
+  position: relative;
   width: 560px;
   height: 340px;
   border-radius: 15px;
-  margin-right: 40px;
+  background-color: #2b0b3a;
 }
 
-.image-right {
+.project-preview img {
   position: absolute;
-  right: 200px;
-  margin-top: 225px;
-}
-
-.ecommerce-img {
-  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 530px;
   height: 300px;
-  top: 345px;
-  margin-left: -10px;
   border-top-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }

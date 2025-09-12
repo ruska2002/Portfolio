@@ -4,6 +4,8 @@ import Skills from "./components/Skills.tsx";
 import WorkExperience from "./components/WorkExperience.tsx";
 import "./App.css";
 import Project from "./components/Project.tsx";
+import Education from "./components/Education.tsx";
+import Contact from "./components/Contact.tsx";
 
 const App = () => {
   return (
@@ -13,6 +15,8 @@ const App = () => {
       <WorkExperience />
       <Skills />
       <Project />
+      <Education />
+      <Contact />
     </>
   );
 };

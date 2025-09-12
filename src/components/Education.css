@@ -1,0 +1,50 @@
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  gap: 80px;
+}
+
+.edu-title {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+.Edu-sircle {
+  width: 550px;
+  height: 560px;
+  border-radius: 50%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #763cac 0%,
+    rgba(50, 15, 133, 0) 100%
+  );
+}
+.edu-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 360px;
+  border-radius: 12px;
+  padding: 30px;
+  background-image: radial-gradient(
+      90.16% 143.01% at 15.32% 21.04%,
+      rgba(105, 59, 147, 0.2) 0%,
+      rgba(110, 191, 244, 0.0447917) 77.08%,
+      rgba(70, 144, 213, 0) 100%
+    ),
+    url("../../public/Card.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.edu-card h3 {
+  color: rgb(178, 192, 239);
+}
+
+.edu-card p {
+  color: rgba(204, 214, 246, 1);
+}
