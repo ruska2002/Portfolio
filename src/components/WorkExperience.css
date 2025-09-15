@@ -74,3 +74,93 @@
   color: #ffffff;
   font-size: 13px;
 }
+@media screen and (width <= 1090px) {
+  .WREX-title {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+  .card {
+    width: 375px;
+    height: 173px;
+  }
+  .experience {
+    font-size: 11px;
+  }
+  .icon {
+    width: 101px;
+    height: 95px;
+    margin-left: 15px;
+  }
+}
+
+@media screen and (width <= 855px) {
+  .cardline {
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    width: 475px;
+    height: 193px;
+  }
+  .icon {
+    width: 121px;
+    height: 115px;
+    margin-left: 20px;
+  }
+  .experience {
+    font-size: 13px;
+    padding: 3px;
+  }
+}
+
+@media screen and (width <= 555px) {
+  .WREX-title {
+    font-size: 18px;
+  }
+  .card {
+    width: 375px;
+    height: 153px;
+  }
+  .experience {
+    font-size: 10px;
+  }
+  .icon {
+    width: 91px;
+    height: 80px;
+    margin-left: 19px;
+  }
+}
+
+@media screen and (width <= 410px) {
+  .card {
+    width: 305px;
+    height: 133px;
+  }
+
+  .icon {
+    width: 71px;
+    height: 60px;
+    margin-left: 18px;
+  }
+}
+
+@media screen and (width <= 334px) {
+  .WREX-title {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+  .card {
+    width: 285px;
+    height: 113px;
+  }
+
+  .icon {
+    width: 51px;
+    height: 45px;
+    margin-left: 12px;
+  }
+  .experience {
+    font-size: 8px;
+    padding: 2px;
+  }
+}

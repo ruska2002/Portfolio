@@ -10,6 +10,7 @@
   display: flex;
   justify-content: center;
   color: #ffffff;
+  letter-spacing: 5px;
 }
 .Edu-sircle {
   width: 550px;
@@ -46,4 +47,110 @@
 
 .edu-card p {
   color: rgba(204, 214, 246, 1);
+}
+
+@media screen and (width <= 1133px) {
+  .Edu-sircle {
+    width: 500px;
+    height: 510px;
+  }
+  .edu-card h3 {
+    font-size: 18px;
+  }
+  .edu-card {
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+  }
+  .edu-card p {
+    font-size: 14px;
+  }
+  .edu-title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (width <= 1040px) {
+  .Edu-sircle {
+    width: 480px;
+    height: 490px;
+  }
+  .edu-card h3 {
+    font-size: 16px;
+  }
+  .edu-card {
+    width: 450px;
+    height: 250px;
+    padding: 15px;
+  }
+  .edu-card p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (width <= 890px) {
+  .Edu-sircle {
+    width: 420px;
+    height: 430px;
+  }
+  .edu-card h3 {
+    font-size: 13px;
+  }
+  .edu-card {
+    width: 380px;
+    height: 200px;
+    padding: 6px;
+  }
+  .edu-card p {
+    font-size: 11px;
+    margin-top: -5px;
+  }
+  .edu-title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (width <= 720px) {
+  .Edu-sircle {
+    width: 320px;
+    height: 330px;
+  }
+}
+
+@media screen and (width <= 620px) {
+  .Edu-sircle {
+    width: 300px;
+    height: 310px;
+  }
+  .edu-title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (width <= 580px) {
+  .Edu-sircle {
+    width: 280px;
+    height: 290px;
+  }
+  .edu-card {
+    width: 340px;
+    height: 230px;
+    padding: 6px;
+  }
+}
+
+@media screen and (width <= 480px) {
+  .Edu-sircle {
+    width: 480px;
+    height: 390px;
+  }
+  .edu-card {
+    width: 210px;
+    height: 280px;
+    padding: 6px;
+  }
+  .edu-title {
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
 }

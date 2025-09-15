@@ -5,6 +5,7 @@
   align-items: center;
   text-align: center;
   margin-top: 200px;
+  margin-bottom: 320px;
 }
 
 .skills-title {
@@ -15,4 +16,65 @@
 
 .skills-img {
   width: 795px;
+}
+
+@media screen and (width <= 1060px) {
+  .skills-title {
+    font-size: 23px;
+    letter-spacing: 10px;
+  }
+  .skills-img {
+    width: 685px;
+  }
+}
+
+@media screen and (width <= 845px) {
+  .skills-title {
+    font-size: 22px;
+    letter-spacing: 9px;
+  }
+  .skills-img {
+    width: 575px;
+  }
+}
+
+@media screen and (width <= 627px) {
+  .skills-title {
+    font-size: 21px;
+    letter-spacing: 8px;
+  }
+  .skills-img {
+    width: 485px;
+  }
+}
+
+@media screen and (width <= 498px) {
+  .skills-img {
+    width: 435px;
+  }
+}
+
+@media screen and (width <= 460px) {
+  .skills-title {
+    font-size: 19px;
+    letter-spacing: 5px;
+  }
+  .skills-img {
+    width: 335px;
+  }
+}
+
+@media screen and (width <= 341px) {
+  .skills-img {
+    width: 275px;
+  }
+}
+
+@media screen and (width <= 314px) {
+  .skills-img {
+    width: 265px;
+  }
+  .skills-title {
+    font-size: 15px;
+  }
 }

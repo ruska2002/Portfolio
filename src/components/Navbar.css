@@ -25,3 +25,6 @@ header > nav {
   gap: 120px;
   color: #ffffff;
 }
+
+@media screen and (min-width >= 350px) and (max-width <= 640) {
+}

@@ -26,3 +26,27 @@
   width: 50px;
   height: 50px;
 }
+
+@media screen and (width <= 1065px) {
+  .soc-media img {
+    width: 40px;
+    height: 40px;
+  }
+  .Contact h3,
+  .Contact h4 {
+    font-size: 15px;
+  }
+}
+@media screen and (width <= 400px) {
+  .soc-media img {
+    width: 25px;
+    height: 25px;
+  }
+  .Contact h3,
+  .Contact h4 {
+    font-size: 10px;
+  }
+  .Contact h3 {
+    letter-spacing: 0;
+  }
+}

@@ -1,46 +1,40 @@
-import memoji from "../../public/memoji.png";
+import me from "../../public/me.jpeg";
 import arrow from "../../public/Arrow.png";
 import "./Me.css";
 
 const Me = () => {
   return (
     <div className="me">
-      {" "}
       <div className="images">
         <div className="gradient"></div>
         <div className="light"></div>
 
-        <div>
-          <div className="small-image1">
-            <img className="memoji" src={memoji} />
-          </div>
-          <div className="small-image2">
-            <img className="arrow" src={arrow} />
-          </div>
+        <div className="image-wrapper">
+          <img className="myImage" src={me} />
         </div>
+
+        <img className="arrow" src={arrow} alt="arrow" />
+
         <p className="text">Hello! I Am RUSKA</p>
-        <br />
-        <p className="text2">A Designer who</p>
-        <br />
+        <p className="text2">A Web Developer who </p>
         <h4 className="text3">
-          Judges a book <br />
-          by its cover...
+          Believes in clean code and
+          <span className="highlight"> innovation.</span>
         </h4>
-        <br />
         <p className="text4">
-          Because if the cover does not impress you what else can?
+          Because if the foundation isn’t solid, nothing else can stand strong.
         </p>
       </div>
+
       <div className="miniText">
-        <h1>I'm a Software Engineer.| </h1>
-        <p>Currently, I'm a Software Engineer at Facebook,</p>
-        <br />
+        <p>
+          Currently, I'm building scalable web applications at WebCanvas A
+          self-taught and passionate developer, working on different projects
+          for over 1.5 years now.
+        </p>
         <p className="miniText2">
-          A self-taught UI/UX designer, functioning in the industry for 3+ years
-          now.
-          <br /> I make meaningful and delightful digital products that create
-          an equilibrium
-          <br /> between user needs and business goals.
+          I create performant and user-friendly solutions that balance
+          technology, creativity, and real-world needs
         </p>
       </div>
     </div>
