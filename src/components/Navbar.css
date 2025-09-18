@@ -26,5 +26,22 @@ header > nav {
   color: #ffffff;
 }
 
-@media screen and (min-width >= 350px) and (max-width <= 640) {
+.section a {
+  text-decoration: none;
+}
+.section a:visited,
+.section a:active {
+  color: rgb(248, 246, 246);
+}
+
+@media screen and (width <= 520px) {
+  .section {
+    display: flex;
+    gap: 40px;
+  }
+}
+@media screen and (width <= 290px) {
+  .section {
+    gap: 15px;
+  }
 }

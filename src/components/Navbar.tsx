@@ -8,9 +8,9 @@ const Navbar = () => {
           <img className="logo" src={logo} />
         </div>
         <div className="section">
-          <p>Home</p>
-          <p>About</p>
-          <p>Lab</p>
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
         </div>
       </nav>
     </header>

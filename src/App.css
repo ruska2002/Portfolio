@@ -4,3 +4,7 @@ body {
   background-color: #11071f;
   font-family: Preahvihear;
 }
+
+html {
+  scroll-behavior: smooth;
+}

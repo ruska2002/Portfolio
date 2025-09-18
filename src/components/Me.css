@@ -1,5 +1,6 @@
 .me {
   margin-top: 100px;
+  margin-left: 170px;
 }
 .images {
   position: relative;
@@ -139,6 +140,17 @@
 .text2 {
   margin-top: 15px;
 }
+@media screen and (width <= 1496px) {
+  .me {
+    margin-left: 160px;
+  }
+}
+
+@media screen and (width <= 1164px) {
+  .me {
+    margin-left: 0;
+  }
+}
 
 @media (max-width: 925px) {
   .miniText h1 {
@@ -163,8 +175,13 @@
     padding-left: -20px;
   }
 }
+@media screen and (width <= 804px) {
+  .text3 {
+    font-size: 21px;
+  }
+}
 
-@media (max-width: 735px) {
+@media (max-width: 786px) {
   .images {
     margin-left: 0;
   }
