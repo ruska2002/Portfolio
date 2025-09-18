@@ -1,6 +1,6 @@
 import "./Contact.css";
 import insta from "../../public/insta.png";
-import fb from "../../public/fb.png";
+import github from "../../public/github.png";
 import linkedin from "../../public/linkedin.png";
 const Contact = () => {
   return (
@@ -8,22 +8,22 @@ const Contact = () => {
       <h3>Contact</h3>
       <div className="soc-media">
         <a
-          href="https://www.linkedin.com/feed/"
+          href="https://www.linkedin.com/in/ruska-metskhovrishvili-183584360"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src={linkedin} />
         </a>
         <a
-          href="https://www.facebook.com/"
+          href="https://github.com/ruska2002?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
         >
           {" "}
-          <img src={fb} />
+          <img src={github} />
         </a>
         <a
-          href="https://www.instagram.com/?next=%2F"
+          href="https://www.instagram.com/russa_russka/?next=%2F"
           target="_blank"
           rel="noopener noreferrer"
         >
