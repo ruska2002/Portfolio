@@ -210,6 +210,9 @@
   }
 }
 @media (max-width: 632px) {
+  .me {
+    margin-top: 0;
+  }
   .gradient {
     width: 250px;
     height: 250px;

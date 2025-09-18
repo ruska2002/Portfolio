@@ -1,33 +1,45 @@
 .Contact {
   margin-top: 100px;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
   color: #ffffff;
   background-color: #1a0b2e;
   width: 100%;
+  padding: 20px 0;
+  flex-wrap: wrap;
 }
 
 .Contact h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
+  margin: 0;
 }
 
-.Contact h4,
-.Contact h3 {
-  display: flex;
-  align-items: center;
+.Contact h4 {
+  margin: 0;
 }
+
 .soc-media {
   display: flex;
   flex-direction: row;
+  gap: 20px;
+  margin-top: 5px;
 }
 
 .soc-media img {
   width: 50px;
   height: 50px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
 }
 
-@media screen and (width <= 1065px) {
+.soc-media img:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 1065px) {
   .soc-media img {
     width: 40px;
     height: 40px;
@@ -37,7 +49,8 @@
     font-size: 15px;
   }
 }
-@media screen and (width <= 400px) {
+
+@media screen and (max-width: 400px) {
   .soc-media img {
     width: 25px;
     height: 25px;

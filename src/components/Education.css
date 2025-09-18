@@ -71,6 +71,9 @@
 }
 
 @media screen and (width <= 1040px) {
+  .EDUCATION-DIV {
+    margin-top: -180px;
+  }
   .Edu-sircle {
     width: 480px;
     height: 490px;

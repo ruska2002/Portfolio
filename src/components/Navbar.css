@@ -28,6 +28,7 @@ header > nav {
 
 .section a {
   text-decoration: none;
+  color: #763cac 0%;
 }
 .section a:visited,
 .section a:active {

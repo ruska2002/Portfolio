@@ -19,6 +19,9 @@
 }
 
 @media screen and (width <= 1060px) {
+  .skills {
+    margin-top: 160px;
+  }
   .skills-title {
     font-size: 23px;
     letter-spacing: 10px;

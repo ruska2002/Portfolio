@@ -164,6 +164,9 @@
 }
 
 @media screen and (width <= 940px) {
+  .projects {
+    margin-top: -100px;
+  }
   .project-preview {
     width: 470px;
     height: 250px;
