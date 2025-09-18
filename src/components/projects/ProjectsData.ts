@@ -2,7 +2,6 @@ import ecommerce from "../../../public/ecommerce.jpg";
 import planets from "../../../public/planets.jpg";
 import easyWay from "../../../public/easyWay.jpg";
 import fitclub from "../../../public/fitclub.png";
-import portfolio from "../../../public/portfolio.jpg";
 
 export const projects = [
   {
@@ -18,13 +17,6 @@ export const projects = [
     description:
       "Planet Fact Site is a responsive multi-page website built with React, TypeScript, and Vite. It provides detailed information about each planet in our solar system, featuring tabbed navigation and a data-driven approach using a local JSON file.",
     image: planets,
-  },
-  {
-    title: "Project",
-    subtitle: "Featured Project",
-    description:
-      "My Portfolio is a personal website built with React and Vite, showcasing my projects and skills. It includes a contact form that allows visitors to send messages directly to my email.",
-    image: portfolio,
   },
   {
     title: "Project",
